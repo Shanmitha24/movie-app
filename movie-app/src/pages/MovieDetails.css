@@ -1,0 +1,19 @@
+.movie-details {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+.movie-poster {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.info {
+  max-width: 600px;
+}
+
+.overview {
+  margin-top: 15px;
+  line-height: 1.5;
+}

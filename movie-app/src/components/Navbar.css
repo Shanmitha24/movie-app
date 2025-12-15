@@ -1,0 +1,44 @@
+.navbar {
+  background: #111;
+  color: white;
+  padding: 18px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Text links */
+.nav-link {
+  color: white;
+  margin-left: 22px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: #ffcc00;
+}
+
+/* ❤️ Favorites icon — aligned with text */
+.nav-icon {
+  color: white;
+  margin-left: 22px;      /* SAME spacing as nav-link */
+  font-size: 18px;        /* SAME size as nav-link */
+  text-decoration: none;
+  cursor: pointer;
+
+  display: inline-flex;   /* key for baseline alignment */
+  align-items: center;
+  line-height: 1;
+
+  transition: transform 0.2s ease;
+}
+
+.nav-icon:hover {
+  transform: scale(1.2);
+}

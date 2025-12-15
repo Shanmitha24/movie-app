@@ -1,0 +1,56 @@
+.favorites-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+/* SAME GRID AS HOME */
+.favorites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* SAME CARD SIZE AS HOME */
+.favorite-card {
+  width: 180px;
+  text-align: center;
+}
+
+/* SAME POSTER LOOK AS HOME */
+.favorite-card img {
+  width: 100%;
+  height: 270px;        /* force consistent poster height */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* TITLE */
+.favorite-card h3 {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+/* REMOVE BUTTON */
+.remove-btn {
+  background: #ff2e63;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.remove-btn:hover {
+  background: #e02556;
+}
+
+.empty {
+  margin-top: 50px;
+  color: #aaa;
+}
